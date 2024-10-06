@@ -8,16 +8,36 @@
 
 /* Begin PBXFileReference section */
 		A1926A752CB1AF2F00AFDE99 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		A1926A772CB2DE3B00AFDE99 /* config.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = config.yml; sourceTree = "<group>"; };
+		A1926A772CB2DE3B00AFDE99 /* _config.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = _config.yml; sourceTree = "<group>"; };
+		A1926A7A2CB2DF7700AFDE99 /* style.scss */ = {isa = PBXFileReference; lastKnownFileType = text; path = style.scss; sourceTree = "<group>"; };
+		A1926A7B2CB2E12400AFDE99 /* about.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = about.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		A1926A6E2CB1AE5100AFDE99 = {
 			isa = PBXGroup;
 			children = (
-				A1926A772CB2DE3B00AFDE99 /* config.yml */,
+				A1926A7B2CB2E12400AFDE99 /* about.md */,
+				A1926A782CB2DF6800AFDE99 /* assets */,
+				A1926A772CB2DE3B00AFDE99 /* _config.yml */,
 				A1926A752CB1AF2F00AFDE99 /* index.html */,
 			);
+			sourceTree = "<group>";
+		};
+		A1926A782CB2DF6800AFDE99 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				A1926A792CB2DF7200AFDE99 /* css */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		A1926A792CB2DF7200AFDE99 /* css */ = {
+			isa = PBXGroup;
+			children = (
+				A1926A7A2CB2DF7700AFDE99 /* style.scss */,
+			);
+			path = css;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
