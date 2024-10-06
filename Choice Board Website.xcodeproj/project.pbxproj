@@ -8,12 +8,14 @@
 
 /* Begin PBXFileReference section */
 		A1926A752CB1AF2F00AFDE99 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		A1926A772CB2DE3B00AFDE99 /* config.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = config.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		A1926A6E2CB1AE5100AFDE99 = {
 			isa = PBXGroup;
 			children = (
+				A1926A772CB2DE3B00AFDE99 /* config.yml */,
 				A1926A752CB1AF2F00AFDE99 /* index.html */,
 			);
 			sourceTree = "<group>";
